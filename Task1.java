@@ -76,8 +76,32 @@ public class Task1 {
                 if (data.get(i).ozy.equals(db.get(1))){}
                 else{data.remove(i);}
             }
-        }        
+        } 
         
+        if (db.containsKey(2)) {
+            System.out.println(db.get(1));
+            for (int i = data.size()-1 ; i >=0 ; i--) {
+                if (data.get(i).capacity.equals(db.get(2))){}
+                else{data.remove(i);}
+            }
+        } 
+        
+        if (db.containsKey(3)) {
+            System.out.println(db.get(1));
+            for (int i = data.size()-1 ; i >=0 ; i--) {
+                if (data.get(i).os.equals(db.get(3))){}
+                else{data.remove(i);}
+            }
+        } 
+
+        if (db.containsKey(4)) {
+            System.out.println(db.get(1));
+            for (int i = data.size()-1 ; i >=0 ; i--) {
+                if (data.get(i).color.equals(db.get(4))){}
+                else{data.remove(i);}
+            }
+        }
+
         for (Object object : data) {
              System.out.println(object.toString());
         }            
