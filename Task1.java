@@ -102,9 +102,15 @@ public class Task1 {
             }
         }
 
+        Integer n = 0;
+
         for (Object object : data) {
+            n = 1;
              System.out.println(object.toString());
-        }            
+        }      
+        if (n == 0){
+            System.out.println("Таких ноутбуов нет!");
+        }       
 
     }
 }
