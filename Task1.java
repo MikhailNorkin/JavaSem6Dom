@@ -21,25 +21,6 @@ import java.util.Scanner;
 
 public class Task1 {
     
-    // public static void getComputers(ArrayList data, Map db){
-    //     System.out.println(db.get(1));
-    //     System.out.println();
-    //     if (db.containsKey(1)) {
-    //         for (int i = data.size()-1 ; i >=0 ; i--) {
-    //             Computer comp = new Computer();
-    //             data.get(1);
-    //             System.out.println((data.get(1)));
-    //             if (data.get(i).equals(db.get(1))){
-    //                 db.remove(i);
-    //             }
-    //         }
-    //     }
-        // for (Object object : data) {
-        //     System.out.println(object);
-        // }
-
-    //}
-
     public static void main(String[] args) {
         ArrayList<Computer> data = new ArrayList<Computer>();
         Computer computer1 = new Computer("8", "1", "Windows", "White");
