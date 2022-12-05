@@ -21,4 +21,8 @@ public class Computer {
         this.color = color;
     }
 
+    @Override
+    public String toString() {
+        return String.format("%s,%s,%s,%s",ozy,capacity,os,color);
+    }
 }
